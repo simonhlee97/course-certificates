@@ -1,1 +1,1 @@
-## I use this repo to store all my web development and programming education certificates.
+## Here is my collection of course completion certificates from online web development courses.

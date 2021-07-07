@@ -16,9 +16,10 @@
 				flex-wrap: wrap;
 				flex-direction: row;
 				justify-content: center;
+				padding: 1em;
 			}
-			.flex-container > * {
-				/* width: 48%; */
+			.item {
+				max-width: 608px;
 				margin: 10px;
 			}
 			img {
@@ -33,11 +34,25 @@
 			and programming courses I have taken.
 		</h2>
 		<div class="flex-container">
-			<img src="https://picsum.photos/id/237/500/400" alt="puppy" />
-			<img src="https://picsum.photos/id/237/500/400" alt="puppy" />
-			<img src="https://picsum.photos/id/237/500/400" alt="puppy" />
-			<img src="https://picsum.photos/id/237/500/400" alt="puppy" />
-			<img src="https://picsum.photos/id/237/500/400" alt="puppy" />
+			<div class="item">
+				<img
+					src="https://res.cloudinary.com/ryucave/image/upload/c_scale,w_600/v1603255142/dev-portfolio/adv_react-redux_sm_ywcpgz.jpg"
+					alt="adv-react"
+				/>
+			</div>
+			<div class="item">
+				<img
+					src="https://res.cloudinary.com/ryucave/image/upload/c_scale,w_600/v1601868088/dev-portfolio/udemy-node-mongo-small_iug94s.jpg"
+					alt="node"
+				/>
+			</div>
+			<div class="item">
+				<img
+					src="https://res.cloudinary.com/ryucave/image/upload/c_scale,w_600/v1601355983/dev-portfolio/vuejs-certificate_sf7nmt.jpg"
+					alt="vue"
+				/>
+			</div>
+			<div class="item"></div>
 		</div>
 	</body>
 </html>
